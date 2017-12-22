@@ -46,6 +46,9 @@ let keyboard = [
 			[0, 2],
 			[0, 3]
 	];
+console.log (keycodeToString(hello, keyboard));
+
+
 
 function keycodeToString(arr, keyboard){
 	return arr.reduce((line, curChar )=>{
@@ -53,7 +56,6 @@ function keycodeToString(arr, keyboard){
 	}, '');
 }
 
-//console.log (keyboard [0][2]);
 console.log (keycodeToString(hello, keyboard));
 console.log (keycodeToString(javascript, keyboard));
 console.log (keycodeToString(trainer, keyboard));
