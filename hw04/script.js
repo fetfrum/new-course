@@ -16,3 +16,4 @@ let getRandCharInAlph = (keyboardLayout) =>getRandCharInRow (random(0, keyboardL
 let keyboardLayout = addKeyboardLayout(ALPHABET);
 console.log (getRandCharInRow(2, keyboardLayout));
 console.log (getRandCharInAlph(keyboardLayout));
+
