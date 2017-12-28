@@ -29,6 +29,14 @@ function Keyboard(){
 	this.render=(id)=>document.getElementById(id).innerHTML=out;
 }
 
-let keyboard = new Keyboard();
-keyboard.createLayout("qwertyuiop[]asdfghjkl;'\\zxcvbnm,./")
-keyboard.render("root");
+let keyboardEn = new Keyboard();
+keyboardEn.createLayout("qwertyuiop[]asdfghjkl;'\\zxcvbnm,./")
+keyboardEn.render("en");
+
+let keyboardRu = new Keyboard();
+keyboardRu.createLayout("йцукенгшщзхъфывапролджэ\\ячсмитьбю.")
+keyboardRu.render("ru");
+
+let keyboardUA = new Keyboard();
+keyboardUA.createLayout("йцукенгшщзхїфівапролджєґячсмитьбю.")
+keyboardUA.render("uk");
